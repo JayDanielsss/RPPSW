@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/10/24||15:35:11" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem1" uid="Assem1" version="177">
+<AssemblyFile name="Assem1.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="jaywrist1-1" uid="jaywrist1-1" entityUid="jaywrist1*:*Default">
+<Transform>
+<Rotation>-0.53502322871433816 0 0.84483734809493682 0 1 0 -0.84483734809493682 0 -0.53502322871433816</Rotation>
+<Translation>0.071594270325773077 0.89189510254395032 1.3195748235705331</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Diffuse r="0.0054901960784313718" g="0.16745098039215683" b="0.57647058823529407" a="1"/>
+<Specular r="0.00039215686274509808" g="0.01196078431372549" b="0.041176470588235294" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="JayRPPBase-1" uid="JayRPPBase-1" grounded="true" entityUid="JayRPPBase*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68599320628039107 0.60607901578187195 1.2892915371609415</Translation>
+</Transform>
+</Instance>
+<Instance name="JayRPPPrismatic2-1" uid="JayRPPPrismatic2-1" entityUid="JayRPPPrismatic2*:*Default">
+<Transform>
+<Rotation>0.99878749185410087 -7.734220789008644e-16 0.049229524838194795 8.0198657767801107e-16 1 -5.60478363532832e-16 -0.049229524838194795 5.9928019709714669e-16 0.99878749185410087</Rotation>
+<Translation>0.071594270325773909 0.93789510254395014 1.3195748235705365</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.69411764705882351" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.48588235294117643" g="0.068627450980392149" b="0.068627450980392149" a="1"/>
+<Specular r="0.034705882352941177" g="0.0049019607843137254" b="0.0049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="EndEffector-1" uid="EndEffector-1" entityUid="EndEffector*:*Default">
+<Transform>
+<Rotation>0.98538199355299627 -0.1687883610132872 -0.023082806761115623 0.16878836101328717 0.94893270274835151 0.26652807514623506 -0.023082806761115838 -0.26652807514623506 0.96355070919535524</Rotation>
+<Translation>0.067271122434965303 0.75996600666775416 1.3786565782429931</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="0.93725490196078431" b="0.13725490196078433" a="1"/>
+<Diffuse r="0.69999999999999996" g="0.65607843137254895" b="0.096078431372549025" a="1"/>
+<Specular r="0.050000000000000003" g="0.04686274509803922" b="0.0068627450980392165" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="JayRPPPrismatic1-2" uid="JayRPPPrismatic1-2" entityUid="JayRPPPrismatic1*:*Default">
+<Transform>
+<Rotation>-0.99878749185410098 7.7342207890082811e-16 0.049229524838195156 -8.0198657767797369e-16 -0.99999999999999989 -5.6047836353283486e-16 0.049229524838195163 -5.9928019709714807e-16 0.99878749185410087</Rotation>
+<Translation>0.33527416817525674 1.0710790157818715 1.3065782290132528</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="0.93725490196078431" b="0.13725490196078433" a="1"/>
+<Diffuse r="0.69999999999999996" g="0.65607843137254895" b="0.096078431372549025" a="1"/>
+<Specular r="0.050000000000000003" g="0.04686274509803922" b="0.0068627450980392165" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="jaywrist2-1" uid="jaywrist2-1" entityUid="jaywrist2*:*Default">
+<Transform>
+<Rotation>0.50770103845704617 0.16878836101328715 0.8448373480949366 0.31547856607812336 -0.9489327027483514 -1.1100059464439592e-16 0.80169378811047809 0.266528075146235 -0.53502322871433805</Rotation>
+<Translation>0.071594270325773771 0.87713211378560485 1.3195748235705325</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.28627450980392155" g="0.66274509803921566" b="0.32941176470588235" a="1"/>
+<Diffuse r="0.20039215686274509" g="0.46392156862745093" b="0.23058823529411762" a="1"/>
+<Specular r="0.014313725490196078" g="0.033137254901960782" b="0.016470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="JayRPPRotation-1" uid="JayRPPRotation-1" entityUid="JayRPPRotation*:*Default">
+<Transform>
+<Rotation>-0.99878749185410109 -7.3064357743977542e-16 -0.049229524838195302 -7.6343130826108701e-16 1 6.472145373316762e-16 0.049229524838195302 6.8401314498531247e-16 -0.99878749185410109</Rotation>
+<Translation>0.68599320628039107 0.99007901578187207 1.2892915371609415</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.28627450980392155" g="0.66274509803921566" b="0.32941176470588235" a="1"/>
+<Diffuse r="0.20039215686274509" g="0.46392156862745093" b="0.23058823529411762" a="1"/>
+<Specular r="0.014313725490196078" g="0.033137254901960782" b="0.016470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPBase-1</Uid>
+</InstancePath>
+<Position>0 0.42400000000000004 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPRotation-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000036 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JayRPPBase-1</Uid>
+</InstancePath>
+<Position>0 0.42400000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JayRPPRotation-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000036 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPRotation-1</Uid>
+</InstancePath>
+<Position>0.24000000000000016 0.090999999999999748 -0.010000000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPPrismatic1-2</Uid>
+</InstancePath>
+<Position>-0.15200000000000002 0.010000000000000009 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPRotation-1</Uid>
+</InstancePath>
+<Position>0.24000000000000021 0.090999999999999748 0.010000000000000009</Position>
+<Axis>6.1679056923619796e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPPrismatic1-2</Uid>
+</InstancePath>
+<Position>-0.15200000000000008 -0.0099999999999997868 -0.010000000000000009</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPPrismatic1-2</Uid>
+</InstancePath>
+<Position>0.27400000000000008 0.10750000000000004 0.010000000000000231</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPPrismatic2-1</Uid>
+</InstancePath>
+<Position>-0.010000000000000002 0.50000000000000011 -0.010000000000000009</Position>
+<Axis>-1 0 2.5673907444456745e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPPrismatic1-2</Uid>
+</InstancePath>
+<Position>0.25400000000000011 0.10750000000000004 -0.0099999999999997868</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPPrismatic2-1</Uid>
+</InstancePath>
+<Position>-0.010000000000000002 0.50000000000000011 -0.010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>JayRPPPrismatic2-1</Uid>
+</InstancePath>
+<Position>0 -0.040000000000000036 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>jaywrist1-1</Uid>
+</InstancePath>
+<Position>0 0.0060000000000000053 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>JayRPPPrismatic2-1</Uid>
+</InstancePath>
+<Position>0 -0.040000000000000036 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>jaywrist1-1</Uid>
+</InstancePath>
+<Position>0 0.0060000000000000053 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>jaywrist1-1</Uid>
+</InstancePath>
+<Position>0 -0.014762988758345585 -0.030000000000000138</Position>
+<Axis>0 2.2446037049181867e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>jaywrist2-1</Uid>
+</InstancePath>
+<Position>0 0 -0.030000000000000027</Position>
+<Axis>1.1102230246251565e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>jaywrist1-1</Uid>
+</InstancePath>
+<Position>0 -0.014762988758345585 -0.042000000000000148</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>jaywrist2-1</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000027</Position>
+<Axis>1.1102230246251565e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>jaywrist2-1</Uid>
+</InstancePath>
+<Position>0 0.029999999999999971 -1.1102230246251565e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EndEffector-1</Uid>
+</InstancePath>
+<Position>0.025399999999999978 0.096200000000000008 -0.025800000000000045</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>jaywrist2-1</Uid>
+</InstancePath>
+<Position>0 0.029999999999999971 -1.1102230246251565e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EndEffector-1</Uid>
+</InstancePath>
+<Position>0.025399999999999978 0.096200000000000008 -0.025800000000000045</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="EndEffector" uid="EndEffector*:*Default" version="198">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EndEffector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.099893180326794909</Mass>
+<CenterOfMass>0.025399999999999992 0.054134499972325521 -0.025406289904162251</CenterOfMass>
+<Inertia>5.0257480878950141e-05 4.495206472295387e-05 5.2900303056161199e-05 2.0147347864141888e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="EndEffector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.93725490196078431" b="0.13725490196078433" a="1"/>
+<Diffuse r="0.69999999999999996" g="0.65607843137254895" b="0.096078431372549025" a="1"/>
+<Specular r="0.050000000000000003" g="0.04686274509803922" b="0.0068627450980392165" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JayRPPBase" uid="JayRPPBase*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JayRPPBase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.4529729867849968</Mass>
+<CenterOfMass>0 0.18954313126504013 0</CenterOfMass>
+<Inertia>0.090555497800988149 0.017318549822939459 0.090555497800988149 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="JayRPPBase_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Diffuse r="0.0054901960784313718" g="0.16745098039215683" b="0.57647058823529407" a="1"/>
+<Specular r="0.00039215686274509808" g="0.01196078431372549" b="0.041176470588235294" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JayRPPPrismatic1" uid="JayRPPPrismatic1*:*Default" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JayRPPPrismatic1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.1063999999999998</Mass>
+<CenterOfMass>0.10589674654198319 0 0</CenterOfMass>
+<Inertia>0.0093916974999999989 0.065732073920533818 0.065694886420533824 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="JayRPPPrismatic1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.93725490196078431" b="0.13725490196078433" a="1"/>
+<Diffuse r="0.69999999999999996" g="0.65607843137254895" b="0.096078431372549025" a="1"/>
+<Specular r="0.050000000000000003" g="0.04686274509803922" b="0.0068627450980392165" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JayRPPPrismatic2" uid="JayRPPPrismatic2*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JayRPPPrismatic2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26076272015520857</Mass>
+<CenterOfMass>0 0.19483185262252761 1.1294724610124453e-05</CenterOfMass>
+<Inertia>0.0068627295248597456 3.0007740287363852e-05 0.0068626840500287476 -8.6934195316380063e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="JayRPPPrismatic2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69411764705882351" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.48588235294117643" g="0.068627450980392149" b="0.068627450980392149" a="1"/>
+<Specular r="0.034705882352941177" g="0.0049019607843137254" b="0.0049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JayRPPRotation" uid="JayRPPRotation*:*Default" version="151">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JayRPPRotation.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.9628867028761281</Mass>
+<CenterOfMass>0.12250284034303008 0.08112855327393366 0</CenterOfMass>
+<Inertia>0.015214903355506439 0.11207203619954979 0.11467643325113872 -1.5683372419048555e-10 0 9.3904381683220986e-05</Inertia>
+</MassProperties>
+<GeometryFile name="JayRPPRotation_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.28627450980392155" g="0.66274509803921566" b="0.32941176470588235" a="1"/>
+<Diffuse r="0.20039215686274509" g="0.46392156862745093" b="0.23058823529411762" a="1"/>
+<Specular r="0.014313725490196078" g="0.033137254901960782" b="0.016470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="jaywrist1" uid="jaywrist1*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="jaywrist1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16765128751525624</Mass>
+<CenterOfMass>0 0.017419651731109379 0</CenterOfMass>
+<Inertia>0.00010313461432659138 9.6281778161875061e-05 9.5792299852394617e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="jaywrist1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Diffuse r="0.0054901960784313718" g="0.16745098039215683" b="0.57647058823529407" a="1"/>
+<Specular r="0.00039215686274509808" g="0.01196078431372549" b="0.041176470588235294" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="jaywrist2" uid="jaywrist2*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="jaywrist2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.030922565104551512</Mass>
+<CenterOfMass>0 0.0090282850081755805 0</CenterOfMass>
+<Inertia>1.1515450173397165e-05 6.999695292664889e-06 6.3580022337539236e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="jaywrist2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.28627450980392155" g="0.66274509803921566" b="0.32941176470588235" a="1"/>
+<Diffuse r="0.20039215686274509" g="0.46392156862745093" b="0.23058823529411762" a="1"/>
+<Specular r="0.014313725490196078" g="0.033137254901960782" b="0.016470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
